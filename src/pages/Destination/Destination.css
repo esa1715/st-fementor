@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.destination {
+    background-image: url('/assets/bg/destination.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    height: 136px;
+    width: 100%;
+}
+
+.destination-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 48px 165px;
+    gap: 24px;
+}
+
+.destination-title {
+    display: flex;
+    align-items: center;
+    width: 357px;
+    gap: 24px;
+}
+
+.destination-title span {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255, 0.25);
+    font-size: 28px;
+}
+
+.destination-title h1 {
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.destination-content {
+    display: flex;
+    height: 734px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.destination-image {
+    margin: 0 29.5px;
+}
+
+.destination-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0 47px;
+    gap: 40px;
+}
+
+.destination-navbar ul {
+    display: flex;
+    gap: 32px;
+}
+
+.destination-navbar ul li button {
+    color: #D0D6F9;
+    font-size: 16px;
+    font-family: "Barlow Condensed", sans-serif;
+    cursor: pointer;
+    height: 32px;
+}
+  
+.destination-navbar button.selected {
+    color: #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.destination-text h2 {
+    color: #fff;
+    font-size: 100px;
+    font-family: "Bellefair", serif;
+}
+
+.destination-text p {
+    color: #D0D6F9;
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+}
+
+.destination-statistics{
+    display: flex;
+    gap: 24px;
+}
+
+.destination-distance, .destination-travel {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 210.5px;
+}
+
+.destination-distance h3, .destination-travel h3 {
+    color: #D0D6F9;
+    font-size: 14px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 400;
+}
+
+.destination-distance span, .destination-travel span {
+    color: #fff;
+    font-size: 28px;
+    font-family: "Bellefair", serif;
+}
